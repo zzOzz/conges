@@ -1,0 +1,23 @@
+{
+  "name": "conges",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vincent Lombard <vincent.lombard@universite-lyon.fr>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "jquery": "^2.2.3"
+  }
+}

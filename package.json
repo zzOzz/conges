@@ -1,0 +1,18 @@
+{
+  "name": "conges",
+  "version": "1.0.0",
+  "description": "Conges",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . conges --platform=win32 --arch=x64 --icon=./conges.ico --out=dist --version-string.CompanyName=UdL --version-string.ProductName=Conges --version-string.ProductVersion=1.0 --overwrite",
+    "setup": "electron-installer-windows --src dist/conges-win32-x64/ --dest dist/installers/ "
+  },
+  "devDependencies": {
+    "electron-installer-windows": "*",
+    "electron-packager": "*",
+    "electron-prebuilt": "*"
+  },
+  "author": "Vincent Lombard",
+  "license": "ISC"
+}

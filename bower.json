@@ -1,6 +1,6 @@
 {
   "name": "conges",
-  "description": "",
+  "description": "Conges",
   "main": "index.js",
   "authors": [
     "Vincent Lombard <vincent.lombard@universite-lyon.fr>"

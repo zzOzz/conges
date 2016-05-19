@@ -34,3 +34,5 @@ node_modules
 bower_components
 conges-darwin-x64
 conges
+.DS_Store
+dist

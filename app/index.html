@@ -1,0 +1,26 @@
+<html>
+
+<script>window.$ = window.jQuery = require('../bower_components/jquery/dist/jquery.min.js');</script></script>
+<script>
+  jQuery(document).ready(function() {
+    //$.getJSON("https://www.universite-lyon.fr/ip.php",
+    jQuery.getJSON("https://api.ipify.org?format=json",
+        function(data){
+            console.log(data.ip);
+            if(data.ip=="193.54.25.3"||navigator.appVersion.indexOf("Electron")!== -1){
+              //$("div").html("<iframe src='https://pitaya.admin.ec-lyon.fr/cgi-bin/WebObjects/Hamac-PPRES.woa/wa/casLogin' style='border: 0; width: 100%; height: 100%'></iframe>");
+              window.location.href='https://buzit.servers.ec-lyon.fr/cgi-bin/WebObjects/Hamac-PPRES.woa';
+            }else{
+              if(navigator.platform=='MacIntel'){
+              window.location.replace("https://conges.universite-lyon.fr/conges.zip");
+              }else{
+              window.location.replace("https://conges.universite-lyon.fr/conges.exe");
+              }
+            }
+        });
+    });
+</script>
+<div>
+  ok
+</div>
+</html>

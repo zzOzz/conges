@@ -10,7 +10,7 @@
         "type": "git",
         "url": "https://github.com/zzOzz/conges"
     },
-    "Dependencies": {
+    "devDependencies": {
     "electron-squirrel-startup": "^1.0.0"
     }
 }

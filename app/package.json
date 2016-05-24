@@ -1,16 +1,17 @@
 {
-    "name": "conges",
-    "version": "1.0.0",
-    "description": "Conges",
-    "main": "index.js",
-    "author": "Vincent Lombard",
-    "license": "ISC",
-    "homepager": "https://github.com/zzOzz/conges",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zzOzz/conges"
-    },
-    "devDependencies": {
-    "electron-squirrel-startup": "^1.0.0"
-    }
+  "name": "conges",
+  "version": "1.0.0",
+  "description": "Conges",
+  "main": "index.js",
+  "author": "Vincent Lombard",
+  "license": "ISC",
+  "homepager": "https://github.com/zzOzz/conges",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzOzz/conges"
+  },
+  "devDependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^2.2.4"
+  }
 }
